@@ -1,4 +1,7 @@
 #The parentheses supersedes the operator 
+#*****Operator hierarchy*******
+#Arithmetic <--- Comparison <--- Logical <--- Assignment
+#Why first place? we need to solve the problem first
 x = 5
 y = 3
 print(x, y)
