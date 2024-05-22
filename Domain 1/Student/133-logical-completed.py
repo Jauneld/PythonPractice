@@ -1,6 +1,7 @@
 #The parentheses supersedes the operator 
 #*****Operator hierarchy*******
-#Comparison ---> Logical ---> Assigment
+#Arithmetic <--- Comparison <--- Logical <--- Assignment
+#Why first place? we need to solve the problem first
 # Logical operator
 #Logical keywords: not, if, or, and, else
 #"not" takes Presedence over "and" & "or" because it only requires one value to check is the the statment
