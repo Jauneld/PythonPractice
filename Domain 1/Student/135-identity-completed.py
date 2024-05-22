@@ -1,7 +1,8 @@
 #The parentheses supersedes the operator 
 #*****Operator hierarchy*******
-#Arithmetic <--- Comparison <--- Identity <--- Logical <--- Assignment
+#Arithmetic <--- Containment <--- Comparison <--- Identity <--- Logical <--- Assignment
 #Why first place? we need to solve the problem first
+#Containment is 2nd because it is not as specific as the other comparison types: Comparison, identity, logical
 #Identity: Determines if 2 variables share the same memory location so they are equal
 #identity keywords: "is" 
 
