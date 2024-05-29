@@ -1,5 +1,8 @@
 coins = 5
 games = 0
+
+if games == 0:
+    raise print("can't work")
 try:#cant run by its self w/o except and finally
     result = coins/games
 except:# to catch execeptions. only runs if the try causes a runtime error
