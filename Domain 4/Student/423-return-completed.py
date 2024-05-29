@@ -1,3 +1,4 @@
+#Functions that do not return any values are called void functions
 def total_score(score, multiplier):
     return score * multiplier
 
