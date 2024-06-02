@@ -12,7 +12,7 @@ absolute value[floating absolute]
 
 print(math.ceil(x))
 """
-returns the next interger up on the number line after a decimal
+returns the next interger down the number line after a decimal
 """
 
 print(math.floor(x))
