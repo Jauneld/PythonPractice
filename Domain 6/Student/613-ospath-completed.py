@@ -1,5 +1,5 @@
-import os
-
+import os.path
+#os.path.exists() used to see if a file and diectory is there
 if not os.path.exists('613-message.txt'):
     message = open('613-message.txt','w')
     message.write('Testing file for player configuration\n')
@@ -12,4 +12,8 @@ else:
     print(content)
     message_test.close()
 
- 
+file_path = os.path.join('613-test','613-test.txt')
+#join combines a folder subfolders and a file into a single entity that can be 
+#checked for existence
+if os.path.ispath(file_path): 
+    print('File exists.')
