@@ -1,5 +1,6 @@
+#methods: functions that belong to classes which are frameworks for objects
 class Game_Player:
-    def __init__(character,score):
+    def __init__(character,score):#defined an initial object 
         character.name = character
         character.score = 0
     def get_score(character, interval=10):
